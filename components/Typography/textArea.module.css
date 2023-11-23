@@ -1,0 +1,33 @@
+.GMTools {
+    background: #D0D4CA;
+    border: 10px solid #F0F0F0;
+    margin: -120px auto 0;
+    max-width: 690px;
+    padding: 20px 55px;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline {
+    background: #D0D4CA;
+    border: 10px solid #F0F0F0;
+    margin-left: auto;
+    max-width: 500px;
+    padding: 45px 30px;
+    position: relative;
+    top: 320px;
+    z-index: 1;
+}
+
+.toolTextContainer {
+    background: #D0D4CA;
+    grid-column: 2 / span 10;
+    grid-row: auto;
+    margin-top: 50px;
+    padding: 0 40px 20px;
+}
+
+.homeContactDesc {
+    grid-column: 1;
+    grid-row: 1;
+}

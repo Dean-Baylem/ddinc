@@ -1,0 +1,29 @@
+.base {
+    border-radius: 50%;
+}
+
+.rounded1 {
+    border: 10px solid #F0F0F0;
+    opacity: 0;
+    transform: translateX(-50px);
+    z-index: -4;
+}
+
+.rounded2 {
+    border: 10px solid #F0F0F0;
+    left: 15%;
+    opacity: 0;
+    transform: translateX(50px);
+    top: 10%;
+    z-index: -3;
+}
+
+.rounded3 {
+    border: 10px solid #F0F0F0;
+    left: 4%;
+    opacity: 0;
+    transform: translateX(-50px);
+    top: 72%;
+    z-index: -2;
+}
+

@@ -1,0 +1,23 @@
+.base {
+    background: #F5EEC8;
+    border: 3px solid #555843;
+    border-radius: 8px;
+    display: block;
+    font-family: var(--fontTextSerif);
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 23px;
+    text-align: center;
+    transition: ease-in-out 0.3s;
+    width: fit-content;
+}
+
+.base:hover {
+    filter: brightness(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+.toolsBtn {
+    margin-left: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+.testimonialLogo {
+    font-family: var(--fontHeading);
+}
+
+.testimonialTitle {
+    color: #fff;
+    font-family: var(--fontTextSerif);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    gap: 24px;
+}
+
+.container li {
+    opacity: 0;
+}
+
+.container li img {
+    height: auto;
+    max-width: 128px;
+    width: 8.88vw;
+}
+
+.container li:first-child {
+    margin-top: 85px;
+}
+
+.container li:last-child {
+    margin-top: 68px;
+}

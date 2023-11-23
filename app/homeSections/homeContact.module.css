@@ -1,0 +1,32 @@
+.section {
+    margin-top: 150px;
+}
+
+.container {
+    background: #d9d9d9;
+    column-gap: 60px;
+    display: grid;
+    grid-template-columns: 495px auto;
+    row-gap: 40px;
+    padding: 40px 45px;
+    position: relative;
+}
+
+.wrapper {
+    max-width: 925px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: auto;
+    max-width: 425px;
+    right: -4.65%;
+    position: absolute;
+    top: -3.9%;
+    width: 40%;
+}
+
+.formContainer {
+    grid-column: 1;
+    grid-row: 2;
+}

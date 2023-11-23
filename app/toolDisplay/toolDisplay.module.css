@@ -1,0 +1,146 @@
+.section {
+    margin: 140px auto 0;
+    max-width: 1080px;
+}
+
+.mainContainer {
+    display: grid;
+    grid-template-columns: 18.5% 81.5%;
+    height: 890px;
+}
+
+.mainImg,
+.subImg,
+.tertiaryImg {
+    height: 100%;
+    width: 100%;
+}
+
+.toolList {
+    background: #fff;
+    border-radius: 16px 0 0 16px;
+    border-right: 1px solid rgba(0,0,0,0.4);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.toolList .toolSelector:first-child {
+    border-radius: 16px 0 0;
+    border-top: none;
+}
+
+.toolList .toolSelector:last-child {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+.toolSelector {
+    border-top: 1px solid rgba(0,0,0,0.4);
+    cursor: pointer;
+    padding: 20px 0;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.toolSelector:hover {
+    background: #e3e3e3;
+    transition: 0.3s;
+}
+
+.toolTitle {
+    color: #000000;
+    font-family: var(--fontTextSerif);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Display Styling */
+
+.mainDisplay {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+
+.displayContainer {
+    background: #D9D9D9;
+    border-radius: 0 16px 16px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.displayRegularLeft,
+.displayRegularRight,
+.displayBlocksLeft  {
+    padding: 50px 40px 40px;
+}
+
+.displayRegularLeft .mainImg {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 3;
+    max-width: 375px;
+}
+
+.displayRegularLeft .subImg {
+    grid-column: 5 / span 5;
+    grid-row: 2 / span 3;
+    margin-left: 9%;
+    max-width: 260px;
+}
+
+.displayRegularLeft .toolTitle {
+    grid-column: 8 / span 3;
+    grid-row: 1;
+    padding: 60px 0;
+}
+
+
+.displayRegularRight .mainImg {
+    grid-column: 7 / span 5;
+    grid-row: 1 / span 3;
+    max-width: 375px;
+}
+
+.displayRegularRight .subImg {
+    grid-column: 3 / span 5;
+    grid-row: 2 / span 3;
+    margin-left: 9%;
+    max-width: 260px;
+}
+
+.displayRegularRight .toolTitle {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 3;
+    grid-row: 1;
+    padding: 60px 0;
+}
+
+.displayBlocksLeft .mainImg {
+    grid-column: 4 / span 6;
+    grid-row: 3 / span 3;
+    width: 100%;
+    height: 100%;
+}
+
+.displayBlocksLeft .subImg {
+    grid-column: 9 / span 4;
+    grid-row: 1 / span 3;
+}
+
+.displayBlocksLeft .tertiaryImg {
+    grid-column: 1 / span 4;
+    grid-row: 5 / span 3;
+}
+
+.displayBlocksLeft .toolTitle {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 3;
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+.displayTextArea {
+    grid-column: 2 / span 10;
+    grid-row: auto;
+}

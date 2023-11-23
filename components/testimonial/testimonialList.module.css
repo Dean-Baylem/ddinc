@@ -1,0 +1,7 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 0;
+    max-width: 890px;    
+    padding-bottom: 20px;
+}

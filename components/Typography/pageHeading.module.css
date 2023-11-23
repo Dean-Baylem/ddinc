@@ -1,0 +1,45 @@
+.base {
+   font-family: var(--fontTextSerif);
+   font-size: 2rem;
+   font-weight: 700;
+   letter-spacing: 0.04em;
+   position: relative;
+width: fit-content;
+   white-space: pre-wrap; 
+}
+
+.jsHeading {
+    color: transparent
+}
+
+.jsSubHeading {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.base .js-block {
+    background: #555843;
+    display: block;
+    height: 100%;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: left;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.subtitle {
+    font-family: var(--fontTextSansSerif);
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 0;
+}
+
+.titleSmall {
+    font-size: 26px;
+    line-height: 1.4;
+    text-align: center;
+}

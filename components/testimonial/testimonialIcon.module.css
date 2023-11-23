@@ -1,0 +1,23 @@
+.container {
+    align-items: center;
+    display: flex;
+    gap: 36px;
+    margin: 0 auto;
+    max-width: fit-content;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.icon {
+    height: auto;
+    max-width: 75px;
+    width: 100%;
+}
+
+.name {
+    color: #fff;
+    font-family: var(--fontTextSerif);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3;
+}

@@ -1,0 +1,72 @@
+.title__main {
+    font-family: var(--fontHeading);
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.title__main span {
+    display: inline-flex;
+    max-width: fit-content;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+
+.title__lead {
+    font-family: var(--fontQuote);
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.title__link {
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-family: var(--fontTextSerif);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 20px;
+    position: relative;
+    opacity: 0;
+    transform: translateY(-20px);
+    width: fit-content;
+}
+
+.title__link span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: -1;
+    transition: 0.4s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.title__link:hover span {
+    transform: scaleX(1);
+    transition: 0.4s;
+}
+
+.title__section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url('https://img.freepik.com/free-photo/ancient-castle-mountains-generative-ai_169016-30429.jpg?w=2000&t=st=1697344476~exp=1697345076~hmac=ef10f645242a19627377a104b11f87417a83e51409aed672bb7ee8fddbdfbe83');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 10vw;
+    width: 100%;
+}
+

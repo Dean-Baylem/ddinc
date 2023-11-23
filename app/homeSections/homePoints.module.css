@@ -1,0 +1,8 @@
+.section {
+    margin-top: 117px;
+}
+
+.wrapper {
+    display: grid;
+    row-gap: 117px;
+}
