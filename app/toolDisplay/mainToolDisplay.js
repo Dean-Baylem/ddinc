@@ -4,7 +4,6 @@ import React, { useEffect, useState, useReducer, useRef } from "react";
 import MainToolDisplay from "./mainDisplay";
 import styles from "./toolDisplay.module.css";
 import { client } from "@/libs/client";
-import { Transition } from "react-transition-group";
 
 export default function ToolDisplay() {
     const [toolList, setToolList] = useState([]);
